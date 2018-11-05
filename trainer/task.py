@@ -21,9 +21,9 @@ if __name__ == '__main__':
                    'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
     train_images = train_images / 255.0
     test_images = test_images / 255.0
-    model = trainer.model.getModel()
-    model.fit(train_images, train_labels, epochs=5)
-    test_loss, test_acc = model.evaluate(test_images, test_labels)
+    model_model = trainer.model.getModel()
+    model_model.fit(train_images, train_labels, epochs=5)
+    test_loss, test_acc = model_model.evaluate(test_images, test_labels)
 
     print('Test accuracy:', test_acc)
 
