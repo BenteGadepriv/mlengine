@@ -5,10 +5,6 @@ import tensorflow as tf
 import trainer.model
 from tensorflow import keras
 
-# Helper libraries
-import numpy as np
-import matplotlib.pyplot as plt
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument(
