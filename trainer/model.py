@@ -1,6 +1,7 @@
 import tensorflow as tf
 from tensorflow import keras
 
+
 def getModel():
     model = keras.Sequential([
         keras.layers.Flatten(input_shape=(28, 28)),
