@@ -11,3 +11,4 @@ def getModel():
     model.compile(optimizer=tf.train.AdamOptimizer(),
                   loss='sparse_categorical_crossentropy',
                   metrics=['accuracy'])
+    return model
